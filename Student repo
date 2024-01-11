@@ -1,0 +1,95 @@
+PS C:\Users\Krish> git clone https://github.com/krishnavamsi-sanisetty/Java-Personal
+Cloning into 'Java-Personal'...
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 7 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (7/7), done.
+PS C:\Users\Krish> git add Student.java
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\Krish> cd C:\Users\Krish\Java-Personal
+PS C:\Users\Krish\Java-Personal> git add Student.java
+warning: in the working copy of 'Student.java', LF will be replaced by CRLF the next time Git touches it
+PS C:\Users\Krish\Java-Personal> git commit -m "Student.java"
+[main 7d38041] Student.java
+ 1 file changed, 13 insertions(+)
+ create mode 100644 Student.java
+PS C:\Users\Krish\Java-Personal> git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 478 bytes | 478.00 KiB/s, done.
+Total 3 (delta 0), reused 2 (delta 0), pack-reused 0
+To https://github.com/krishnavamsi-sanisetty/Java-Personal
+   16f6a72..7d38041  main -> main
+PS C:\Users\Krish\Java-Personal> vi Student.java
+vi : The term 'vi' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ vi Student.java
++ ~~
+    + CategoryInfo          : ObjectNotFound: (vi:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Krish\Java-Personal> nano Student.java
+nano : The term 'nano' is not recognized as the name of a cmdlet, function, script file, or operable program. Check
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ nano Student.java
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (nano:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Krish\Java-Personal> nano Student
+nano : The term 'nano' is not recognized as the name of a cmdlet, function, script file, or operable program. Check
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ nano Student
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (nano:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Krish\Java-Personal> notepad Student.java
+PS C:\Users\Krish\Java-Personal> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Student.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\Krish\Java-Personal> notepad Student.java
+PS C:\Users\Krish\Java-Personal> git add Student.java
+warning: in the working copy of 'Student.java', LF will be replaced by CRLF the next time Git touches it
+PS C:\Users\Krish\Java-Personal> git commit -m "Update Student class with new changes"
+[main 1050310] Update Student class with new changes
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\Users\Krish\Java-Personal> git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 343 bytes | 343.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/krishnavamsi-sanisetty/Java-Personal
+   7d38041..1050310  main -> main
+PS C:\Users\Krish\Java-Personal> notepad Student.java
+PS C:\Users\Krish\Java-Personal> git add Student.java
+warning: in the working copy of 'Student.java', LF will be replaced by CRLF the next time Git touches it
+PS C:\Users\Krish\Java-Personal> git commit -m "Update Student class with new changes"
+[main cf40085] Update Student class with new changes
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\Users\Krish\Java-Personal> git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 340 bytes | 340.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/krishnavamsi-sanisetty/Java-Personal
+   1050310..cf40085  main -> main
